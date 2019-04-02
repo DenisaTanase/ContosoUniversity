@@ -96,3 +96,7 @@ C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
 C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
 C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
 C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
+C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames1.resources
+C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ColumnFirstName.resources
+C:\Users\Suzana\Desktop\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources

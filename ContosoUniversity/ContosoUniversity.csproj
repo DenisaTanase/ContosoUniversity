@@ -166,9 +166,28 @@
     <Compile Include="Migrations\201903122215564_InitialCreate.Designer.cs">
       <DependentUpon>201903122215564_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903191940477_MaxLengthOnNames.cs" />
+    <Compile Include="Migrations\201903191940477_MaxLengthOnNames.Designer.cs">
+      <DependentUpon>201903191940477_MaxLengthOnNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903191953415_MaxLengthOnNames1.cs" />
+    <Compile Include="Migrations\201903191953415_MaxLengthOnNames1.Designer.cs">
+      <DependentUpon>201903191953415_MaxLengthOnNames1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903191954284_ColumnFirstName.cs" />
+    <Compile Include="Migrations\201903191954284_ColumnFirstName.Designer.cs">
+      <DependentUpon>201903191954284_ColumnFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904011900482_ComplexDataModel.cs" />
+    <Compile Include="Migrations\201904011900482_ComplexDataModel.Designer.cs">
+      <DependentUpon>201904011900482_ComplexDataModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -185,6 +204,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\contodb - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -196,7 +216,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -238,6 +260,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201903122215564_InitialCreate.resx">
       <DependentUpon>201903122215564_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903191940477_MaxLengthOnNames.resx">
+      <DependentUpon>201903191940477_MaxLengthOnNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903191953415_MaxLengthOnNames1.resx">
+      <DependentUpon>201903191953415_MaxLengthOnNames1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903191954284_ColumnFirstName.resx">
+      <DependentUpon>201903191954284_ColumnFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904011900482_ComplexDataModel.resx">
+      <DependentUpon>201904011900482_ComplexDataModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
